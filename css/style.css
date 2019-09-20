@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap");
+body {
+  background: #cfdfe2;
+  font-family: Ubuntu;
+}
+
+header#header-home {
+  background: url(../images/bg01.jpg) left bottom;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+header#header-home h1 {
+  font-weight: 900;
+  text-shadow: 3px 3px 0 #2d2b75, 4px 4px 0 rgba(255, 255, 255, 0.5);
+  font-size: 42px;
+}
+
+section#boxes .end-header {
+  border-top: solid 50px #272570;
+  border-left: solid 49vw transparent;
+  border-right: solid 49vw transparent;
+}
+section#boxes h1 {
+  font-weight: 900;
+  text-align: center;
+  color: #222;
+  text-shadow: -2px 2px 0 #cfdfe2, -3px 3px 0 #2222228f;
+}
+section#boxes h2 {
+  color: #fff;
+  text-shadow: -2px 2px 0 #222, -3px 3px 0 #ffffff8f;
+  font-weight: 900;
+  font-size: 25px;
+  background: #22222240;
+  padding: 5px 0;
+  border-radius: 0 50px;
+  margin-top: 20px;
+}
+
+section#feedback {
+  background: linear-gradient(to left, #ec008c, #fc6767);
+  background: url(../images/bg-feedback.jpg) fixed;
+  background-size: cover;
+}
+section#feedback .end-boxes {
+  margin-top: 50px;
+  border-top: solid 50px #cfdfe2;
+  border-left: solid 49vw transparent;
+  border-right: solid 49vw transparent;
+}
+section#feedback h1 {
+  font-weight: 900;
+  text-align: center;
+  color: #f0f0f0;
+  text-shadow: -2px 2px 0 #ec008c, -3px 3px 0 #f0f0f08f;
+}
+section#feedback h2 {
+  color: #fff;
+  text-shadow: -2px 2px 0 #222, -3px 3px 0 #ffffff8f;
+  font-weight: 900;
+  font-size: 25px;
+  background: #22222240;
+  padding: 5px 0;
+  border-radius: 0 50px;
+  margin-top: 20px;
+}
+section#feedback .end-feedback {
+  margin-top: 50px;
+  border-top: solid 50px transparent;
+  border-left: solid 49vw #cfdfe2;
+  border-right: solid 49vw #cfdfe2;
+}
+section#feedback .carousel-indicators li {
+  opacity: 0.8;
+  transform: scale(0.8);
+  transition: all 0.3s;
+}
+section#feedback .carousel-indicators li.active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+section#feedback .carousel-indicators li img {
+  border-radius: 50%;
+}
+section#feedback .carousel-item .personimg {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+section#feedback .carousel-item .personimg::after {
+  content: " ";
+  background: #ec008c url(../images/quotation.png) no-repeat center;
+  background-size: 50%;
+  display: table;
+  height: 50px;
+  width: 50px;
+  margin-right: -25px;
+  float: right;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+section#courses img {
+  box-shadow: 0 18px 2px -10px rgba(0, 0, 0, 0.1), 0 20px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=style.css.map */
